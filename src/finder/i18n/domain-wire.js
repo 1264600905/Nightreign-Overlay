@@ -5,7 +5,7 @@
 
   let d = {};
   let base = 'public';
-  const files = ['shifting_earth_labels', 'events_labels', 'nightlords'];
+  const files = ['shifting_earth_labels', 'nightlords'];
 
   function shouldLogDev() {
     if (typeof localStorage === 'undefined') return false;
@@ -41,6 +41,5 @@
   };
 
   SeedfinderI18N.shiftingEarthLabel = v => I18N.lookup(d['shifting_earth_labels'], v);
-  SeedfinderI18N.eventLabel = v => I18N.lookup(d['events_labels'], v);
   SeedfinderI18N.nightlordLabel = v => I18N.lookup(d['nightlords'], v);
 })();

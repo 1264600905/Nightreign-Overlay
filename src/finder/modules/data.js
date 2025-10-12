@@ -130,7 +130,6 @@
     normalized.camelCase = {
       seedId: record.seed_id,
       mapType: shiftingEarth,
-      event: record.Event,
     };
 
     return normalized;
