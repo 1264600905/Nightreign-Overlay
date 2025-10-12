@@ -2,9 +2,9 @@
   "ui": {
     "chooseNightlord": "اختر نايت لورد",
     "chooseMap": "اختر الخريطة",
-    "status": "حالة",
+    "status": "اﻟﺣﺎﻟﺔ",
     "candidates": "مرشحين",
-    "reset": "إعادة ضبط",
+    "reset": "إﻋﺎدة ﺿﺑﻁ",
     "showOverlay": "إظهار التراكب",
     "pickMapAndNightlord": "اختر زعيم الليل والخريطة.",
     "pickMap": "إختر خريطة.",

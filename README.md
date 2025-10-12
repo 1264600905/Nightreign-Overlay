@@ -10,7 +10,7 @@ An Electron-based **seed finder** and **overlay** for *Elden Ring Nightreign*. I
 - 🗺️ **Overlay**: transparent, always‑on‑top; category toggles, per‑category colors, font size / scale, global offset.
 - 🎮 **Controller support**: DualSense **and** Xbox .
 - ⌨️ **Hotkeys**: F7–F10 by default, fully customizable (UI or `config/hotkeys.json`).
-- 🌐 **Languages**: per‑language JSON bundles (UI + domain labels).
+- 🌐 **Languages**: UI and Label translations available in العربية, English, Español, 日本語, 한국어, Polski, Português, Русский, 中文.
 - 🔒 **Safe with EAC**: never touches the game process; just keyboard/gamepad input and an overlay window.
 - 🧩 **Deep of the Night mode friendly**: when POIs are hidden in‑game, you can still identify the seed by placing your **Spawn** and other early visibile icons.
 
@@ -77,8 +77,8 @@ Each category has an independent color swatch.
 ### Overlay Settings
 Also under **Overlay Options**:
 - **Font Size** — label font size.  
-- **Offset X / Offset Y** — nudges every label globally (useful for personal HUD layouts).  
-- **Scale** — scales label size and paddings (DPI‑aware).
+- **Offset X / Offset Y** — nudges every label.  
+- **Scale** — scales label size and paddings.
 
 > All settings persist on restart.
 
@@ -97,8 +97,6 @@ Also under **Overlay Options**:
 ---
 
 ## Controller Support (DualSense & Xbox)
-
-I use the standard **Gamepad API** and auto‑detect common controllers.
 
 - **Toggle Overlay**  
   - **DualSense**: *Touchpad click*  
@@ -122,7 +120,7 @@ I use the standard **Gamepad API** and auto‑detect common controllers.
 - **Overlay doesn’t appear**  
   - If you have multiple monitors, the overlay attaches to your **primary display**. Move the game window there or change the primary monitor.
 - **Hotkey doesn’t work**  
-  - Another app may have registered that global shortcut. Change your hotkey in **Hotkey Settings**.
+  - Another app may have registered that shortcut. Change your hotkey in **Hotkey Settings**.
 - **Controller toggle doesn’t work**  
   - Disable or reconfigure **Steam Input** so the pad reports standard buttons.
 - **Wrong language/labels**  
